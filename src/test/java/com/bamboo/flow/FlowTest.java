@@ -9,18 +9,18 @@ public class FlowTest {
   @Test
   public void successFlow() {
     Node<Integer, Integer> n1 = Node.<Integer, Integer>builder()
-        .name("n1")
+        .name("n1-add1")
         .input(0)
         .task(i -> i + 1)
         .build();
 
     Node<Integer, Integer> n2 = Node.<Integer, Integer>builder()
-        .name("n2")
+        .name("n2-add2")
         .task(i -> i + 2)
         .build();
 
     Node<Integer, Integer> n3 = Node.<Integer, Integer>builder()
-        .name("n1")
+        .name("n3-add3")
         .task(i -> i + 3)
         .build();
 

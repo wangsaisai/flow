@@ -6,7 +6,7 @@
 > 若中间执行失败，从当前节点开始，依次向前回滚 <p>
 
 # Example
-> see test case : ![FlowTest.java](src/test/java/com/bamboo/flow/FlowTest.java)
+> see test case : [FlowTest.java](src/test/java/com/bamboo/flow/FlowTest.java)
 
 ### FlowTest.successFlow()
 > 求和 0 + 1 + 2 + 3
@@ -14,12 +14,12 @@
 ##### 执行结果
 ```
  INFO [main] - Flow:add-test start run
- INFO [main] - Flow:add-test Node:n1 start exec
- INFO [main] - Flow:add-test Node:n1 exec success
- INFO [main] - Flow:add-test Node:n2 start exec
- INFO [main] - Flow:add-test Node:n2 exec success
- INFO [main] - Flow:add-test Node:n1 start exec
- INFO [main] - Flow:add-test Node:n1 exec success
+ INFO [main] - Flow:add-test Node:n1-add1 start exec
+ INFO [main] - Flow:add-test Node:n1-add1 exec success
+ INFO [main] - Flow:add-test Node:n2-add2 start exec
+ INFO [main] - Flow:add-test Node:n2-add2 exec success
+ INFO [main] - Flow:add-test Node:n3-add3 start exec
+ INFO [main] - Flow:add-test Node:n3-add3 exec success
  INFO [main] - Flow:add-test run success
 ```
 
